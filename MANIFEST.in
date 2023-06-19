@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include topal_changes *.css
+recursive-include topal_changes *.csv
+recursive-include topal_changes *.html
+recursive-include topal_changes *.ico
+recursive-include topal_changes *.js
+recursive-include topal_changes *.json
+recursive-include topal_changes *.md
+recursive-include topal_changes *.png
+recursive-include topal_changes *.py
+recursive-include topal_changes *.svg
+recursive-include topal_changes *.txt
+recursive-exclude topal_changes *.pyc
